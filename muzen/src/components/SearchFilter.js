@@ -19,7 +19,7 @@ export default function SearchFilter() {
         placeholder="Locations"
         value={location}
         onChange={(e) => setLocation(e.target.value)}
-        className="px-4 py-2 border border-gray-300 rounded-md w-52 focus:outline-none focus:ring-2 focus:ring-red-900"
+        className="text-gray-500 px-4 py-2 border border-gray-300 rounded-md w-52 focus:outline-none focus:ring-2 focus:ring-red-900"
       />
 
       {/* Date Input */}
@@ -27,7 +27,7 @@ export default function SearchFilter() {
         type="date"
         value={date}
         onChange={(e) => setDate(e.target.value)}
-        className="px-4 py-2 border border-gray-300 rounded-md w-52 focus:outline-none focus:ring-2 focus:ring-red-900"
+        className="text-gray-500 px-4 py-2 border border-gray-300 rounded-md w-52 focus:outline-none focus:ring-2 focus:ring-red-900"
       />
 
       {/* Search Button */}

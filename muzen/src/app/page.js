@@ -1,3 +1,4 @@
+import "./globals.css"
 import Hero from '../components/Hero'
 import FeaturedEvents from '../components/FeaturedEvents'
 import Features from '../components/Features'

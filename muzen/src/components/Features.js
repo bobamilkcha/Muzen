@@ -25,8 +25,8 @@ const events = [
 
 export default function Features() {
   return (
-    <section className="p-10">
-      <h2 className="text-2xl font-semibold mb-6">Why Choose Us?</h2>
+    <section className="bg-white p-10">
+      <h2 className="text-black text-2xl font-semibold mb-6">Why Choose Us?</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {events.map((event, index) => (
           <FeatureCard key={index} {...event} />
