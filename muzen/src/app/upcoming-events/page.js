@@ -1,8 +1,16 @@
-import UpcomingEvents from "../../components/UpcomingEvents";
+'use client';
+import { useEffect, useState } from 'react';
+import UpcomingEvents from '../../components/UpcomingEvents';
+import { getStoredEvents } from '../utils/localStorageEvents';
 
 export default function UpcomingEventsPage() {
-    return (
-    <UpcomingEvents />
-    );
-  }
+  const [events, setEvents] = useState([]);
+
+  useEffect(() => {
+    setEvents(getStoredEvents());
+  }, []);
+
+  return <UpcomingEvents events={events} />;
+}
+
   
