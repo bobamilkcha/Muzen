@@ -12,11 +12,6 @@ export default function Navbar() {
           <li className="hover:text-red-900"><a href="/#contact">Contact Us</a></li>
         </ul>
         <div className="relative lg:block">
-            <input
-            type="text"
-            placeholder="Search"
-            className="border border-gray-300 px-4 py-1 rounded lg:w-40 w-full"
-        />
         </div>
       </nav>
     )

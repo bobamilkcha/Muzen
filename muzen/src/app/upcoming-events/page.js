@@ -10,7 +10,10 @@ export default function UpcomingEventsPage() {
     setEvents(getStoredEvents());
   }, []);
 
-  return <UpcomingEvents events={events} />;
+  return (<div className='bg-white '>
+    <UpcomingEvents events={events} />;
+    </div>) 
+    
 }
 
   

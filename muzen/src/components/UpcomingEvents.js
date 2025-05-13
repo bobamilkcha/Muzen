@@ -12,8 +12,8 @@ export default function UpcomingEvents() {
 
   return (
     <section className="bg-white p-10">
-      <h2 className="text-2xl font-semibold mb-4">Upcoming Events</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <h2 className="text-black text-2xl font-semibold mb-4">Upcoming Events</h2>
+      <div className="bg-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {events.map((event, index) => (
           <EventCard key={index} {...event} />
         ))}
